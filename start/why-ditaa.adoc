@@ -1,0 +1,13 @@
+= 為什麼要用 ditaa 作圖？
+
+為什麼要用它? 因為工程師畫不好圖??
+
+ * 給圖軟體好複雜
+ * 圖形也可以版控 (vimdiff 截圖)
+ * 工程師的美感
+
+[quote,'https://github.com/stathissideris/ditaa[stathissideris/ditaa]']
+____
+I also know a lot of people that can make an ascii diagram easily, but when it gets to using a diagram program, they don't do very well. Maybe this utility could help them make good-looking diagrams easily/quickly.
+____
+

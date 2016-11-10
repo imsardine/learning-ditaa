@@ -1,0 +1,14 @@
+= `ditaa` 指令
+
+----
+ditaa <INPUT_FILE> [<OUTPUT_FILE>] [<OPTIONS>]
+----
+
+常用的 'OPTION' 有：
+
+ * `-T, --transparent` - 透明背景
+ * `-o, --overwrite` - 覆寫檔案
+ * `-S, --no-shadows` - 背景若不是白色，陰影的效果可能不好？
+ * `-s, --scale <SCALE>` - 放大
+ * `-r, --round-corners`
+

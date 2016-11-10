@@ -1,0 +1,43 @@
+= Summary
+
+ * link:README.adoc[前言]
+ * link:start/README.adoc[新手上路]
+   ** link:start/setup.adoc[安裝設定]
+   ** link:start/hello-world.adoc[Hello, World!]
+   ** link:start/why-ditaa.adoc[為什麼要用 ditaa？]
+ * link:drawing/README.adoc[用文字作圖]
+   ** link:drawing/labels.adoc[文字]
+   ** link:drawing/lines.adoc[線條與箭頭]
+   ** link:drawing/shapes.adoc[形狀與填色]
+ * link:howtos/README.adoc[HOWTOs]
+   ** link:howtos/build-ditaa.adoc[自行編譯 ditaa]
+   ** link:howtos/preview-diagram-in-iterm2.adoc[直接在 iTerm2 裡預覽圖形]
+ * link:ditaa-cli.adoc[附錄：`ditaa` 指令]
+
+////
+TBD:
+
+ * 與 AsciiDoc 的整合 (Asciidoctor 似乎不支援?) https://github.com/hwmaier/asciidoc-ditaa-filter
+ * 虛線跟填色無法並用
+
+Questions:
+
+ * 輸出的字型好像不是 mono，用 mono 是不是就不會有錯位的問題??
+ * 為什麼在層疊的關係裡，裡面用 `{s}` 會看不到??
+ * 在 vim 裡可以怎麼快速預覽結果??
+ * 色碼 `cABC` 就是 `#AABBCC` 嗎?? http://stackoverflow.com/questions/3108860/using-3-digit-color-codes-rather-than-6-digit-color-codes-in-css http://stackoverflow.com/questions/13867705/git-grep-by-file-extensions
+ * 無法控制文字的顏色? => 但文字的顏色會隨著背景色調整 (黑/白)
+ * 某些文字好像會被錯誤解讀?? 例如之前 `Timebox: 60 mins` 中的 `:` 消失了?
+ * 應該可以擴充 tag，支援楕園形之類的?? => https://github.com/stathissideris/ditaa/tree/master/images/shapes/flowchart 即將支援
+ * 圖形太小，放不進去字怎麼辦?? 放大原始的文字圖，輸出時再縮小 scale?
+ * 好像無法用 `\` 或 `/` 畫斜線??
+ * 跟 ditaa 相同的工具還有?? => aafigure (功能更強大)
+ * 除了 Asciiflow 外，似乎還有很多工具可以幫忙作畫??
+ * 如何在 iTerm 2 裡直接顯示圖形?? => imgcat
+ * 內嵌的用法，或許 markdown 可以用 `-h,--html` 再加工過?
+ * 好像不能用中文?? 因為格數會算錯，或許可以改程式補上空白? 不過結果就是多了許多空白，原始碼的可讀性也降低了
+ * 要怎麼自己編譯 ditaa ?? => https://github.com/Homebrew/homebrew-core/blob/master/Formula/ditaa.rb
+ * 怎麼內嵌到 Markdown 裡?? 可以來寫個 GitBook 的 plugin?
+
+////
+

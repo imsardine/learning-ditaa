@@ -1,0 +1,678 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>形狀與填色 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.2">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../howtos/README.adoc" />
+    
+    
+    <link rel="prev" href="lines.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    前言
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../start/">
+            
+                <a href="../start/">
+            
+                    
+                    新手上路
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../start/setup.html">
+            
+                <a href="../start/setup.html">
+            
+                    
+                    安裝設定
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../start/hello-world.html">
+            
+                <a href="../start/hello-world.html">
+            
+                    
+                    Hello, World!
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="../start/why-ditaa.html">
+            
+                <a href="../start/why-ditaa.html">
+            
+                    
+                    為什麼要用 ditaa？
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="README.adoc">
+            
+                <span>
+            
+                    
+                    用文字作圖
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="labels.adoc">
+            
+                <span>
+            
+                    
+                    文字
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="lines.html">
+            
+                <a href="lines.html">
+            
+                    
+                    線條與箭頭
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.3.3" data-path="shapes.html">
+            
+                <a href="shapes.html">
+            
+                    
+                    形狀與填色
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../howtos/README.adoc">
+            
+                <span>
+            
+                    
+                    HOWTOs
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../howtos/build-ditaa.html">
+            
+                <a href="../howtos/build-ditaa.html">
+            
+                    
+                    自行編譯 ditaa
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../howtos/preview-diagram-in-iterm2.html">
+            
+                <a href="../howtos/preview-diagram-in-iterm2.html">
+            
+                    
+                    直接在 iTerm2 裡預覽圖形
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../ditaa-cli.html">
+            
+                <a href="../ditaa-cli.html">
+            
+                    
+                    附錄：ditaa 指令
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >形狀與填色</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="&#x5F62;&#x72C0;&#x8207;&#x586B;&#x8272;">&#x5F62;&#x72C0;&#x8207;&#x586B;&#x8272;</h1>
+<div class="sect1">
+<h2 id="__">&#x77E9;&#x5F62;</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>&#x5148;&#x5F9E;&#x6700;&#x57FA;&#x672C;&#x7684;&#x77E9;&#x5F62;&#x958B;&#x59CB;&#x3002;&#x7528; <code>-</code> &#x8DDF; <code>|</code> &#x505A;&#x70BA;&#x77E9;&#x5F62;&#x7684;&#x908A; (&#x865B;&#x7DDA;&#x4E00;&#x6A23;&#x7528; <code>=</code> &#x6216; <code>:</code> &#x6A19;&#x793A;)&#xFF0C;&#x8F49;&#x89D2;&#x5247;&#x7528; <code>+</code>&#x3002;</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>+=--+ +-------+ +---+
+| A | |   B   | :   |
++---+ +-------+ | C |
+                |   |
+                +---+</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>&#x8F38;&#x51FA;&#x7D50;&#x679C;&#xFF1A;</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../images/rect.png" alt="rect.png">
+</div>
+</div>
+<div class="paragraph">
+<p>&#x865B;&#x7DDA;&#x6C92;&#x6709;&#x9670;&#x5F71;&#x6548;&#x679C;&#x3002;</p>
+</div>
+<div class="admonitionblock tip">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Tip</div>
+</td>
+<td class="content">
+&#x5728;&#x5782;&#x76F4;&#x7DDA;&#x7528; <code>:</code> &#x4F86;&#x6A19;&#x793A;&#x865B;&#x7DDA;&#xFF0C;&#x6703;&#x6BD4;&#x5728;&#x6C34;&#x5E73;&#x7DDA;&#x7528; <code>=</code> &#x6A19;&#x793A;&#x4F86;&#x5F97;&#x76F4;&#x89BA;&#x3002;
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="___2">&#x5713;&#x89D2;</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>&#x8F49;&#x89D2;&#x8655;&#x4E5F;&#x53EF;&#x4EE5;&#x7528; <code>/</code> &#x6216; <code>\</code>&#xFF0C;&#x5C31;&#x6703;&#x8B8A;&#x6210;&#x6709;&#x8CEA;&#x611F;&#x7684;&#x5713;&#x89D2;&#x3002;</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>+---\ +-------+
+| A | |   B   :
+\---+ +-------/</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>&#x8F38;&#x51FA;&#x7D50;&#x679C;&#xFF1A;</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../images/rect-round-corners.png" alt="rect round corners.png">
+</div>
+</div>
+<div class="admonitionblock tip">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Tip</div>
+</td>
+<td class="content">
+&#x82E5;&#x60F3;&#x5C07;&#x6240;&#x6709;&#x7684;&#x8F49;&#x89D2; (&#x5305;&#x62EC;&#x7DDA;&#x689D;&#x7684;&#x8F49;&#x6298;&#x8655;) &#x756B;&#x6210;&#x5713;&#x89D2;&#xFF0C;&#x53EF;&#x4EE5;&#x52A0;&#x4E0A; <code>-r</code> (<code>--round-corners</code>)&#x3002;
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="___3">&#x5176;&#x4ED6;&#x5F62;&#x72C0;</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>&#x56B4;&#x683C;&#x4F86;&#x8AAA;&#xFF0C;&#x77E9;&#x5F62;&#x662F; ditaa &#x552F;&#x4E00;&#x652F;&#x63F4;&#x7684;&#x5F62;&#x72C0;&#xFF0C;&#x5176;&#x4ED6;&#x90FD;&#x662F;&#x5B83;&#x7684;&#x8B8A;&#x5316;&#x5F62;&#xFF0C;&#x56E0;&#x70BA;&#x5176;&#x4ED6;&#x5F62;&#x72C0;&#x90FD;&#x4E0D;&#x662F;&#x76F4;&#x63A5;&#x756B;&#x51FA;&#x4F86;&#x7684;&#xFF0C;&#x800C;&#x662F;&#x5728;&#x77E9;&#x5F62;&#x88E1;&#x52A0;&#x8A3B; tag (&#x6210;&#x5C0D;&#x7684; <code>{ &#x2026;&#x200B; }</code>)&#xFF0C;&#x8F38;&#x51FA;&#x6642;&#x5C31;&#x6703;&#x8B8A;&#x6210;&#x4E0D;&#x540C;&#x7684;&#x5F62;&#x72C0; (&#x6216;&#x7B26;&#x865F;)&#x3002;&#x76EE;&#x524D;&#x652F;&#x63F4;&#x4E09;&#x7A2E; tag&#xFF1A;</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><code>{d}</code> - &#x6587;&#x4EF6; (document)</p>
+</li>
+<li>
+<p><code>{s}</code> - &#x5132;&#x5B58; (storage)</p>
+</li>
+<li>
+<p><code>{io}</code> - &#x8F38;&#x51FA;&#xFF0F;&#x8F38;&#x5165; (Input/Output)</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>&#x4F8B;&#x5982;&#xFF1A;</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>+-------+ +-------------------+ +------+
+|       | |                   | :      |
+|       | |       {io}        | |      |
+|    {d}| |                   | |      |
++-------+ +-------------------+ |      |
+                                |      |
+                                |   {s}|
+                                +------+</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>&#x8F38;&#x51FA;&#x7D50;&#x679C;&#xFF1A;</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../images/symbols.png" alt="symbols.png">
+</div>
+</div>
+<div class="paragraph">
+<p>Tag &#x53EA;&#x8981;&#x5728;&#x77E9;&#x5F62;&#x88E1;&#x5373;&#x53EF;&#xFF0C;&#x64FA;&#x653E;&#x7684;&#x4F4D;&#x7F6E;&#x6C92;&#x6709;&#x9650;&#x5B9A; (&#x7FD2;&#x6163;&#x4E0A;&#x6703;&#x653E;&#x89D2;&#x843D;)&#x3002;&#x53E6;&#x5916;&#xFF0C;&#x77E9;&#x5F62;&#x642D;&#x914D; tag &#x4F7F;&#x7528;&#x6642;&#xFF0C;&#x672C;&#x8EAB;&#x7684;&#x5927;&#x5C0F; (dimension) &#x6C7A;&#x5B9A;&#x4E86;&#x6700;&#x5F8C;&#x8F38;&#x51FA;&#x5716;&#x5F62;&#x7684;&#x5927;&#x5C0F;&#x3001;&#x9577;&#x5BEC;&#x6BD4;&#x4F8B;&#x3002;</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="___4">&#x586B;&#x8272;</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>&#x5F62;&#x72C0;&#x7684;&#x5167;&#x90E8;&#x53EF;&#x4EE5;&#x586B;&#x8272;&#xFF0C;&#x5728;&#x77E9;&#x5F62;&#x5167;&#x90E8;&#x52A0;&#x8A3B;&#x8272;&#x78BC; (color code) &#x5373;&#x53EF;&#xFF0C;&#x4E5F;&#x53EF;&#x4EE5;&#x8DDF; tag &#x6DF7;&#x7528;&#x3002;&#x8272;&#x78BC;&#x7684;&#x8868;&#x793A;&#x6CD5;&#x6709;&#x5169;&#x7A2E;&#xFF1A;</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><code>c&lt;CODE&gt;</code> - &#x5176;&#x4E2D; <em>CODE</em> &#x662F;&#x4E09;&#x4F4D;&#x6578;&#x7684;&#x8272;&#x78BC;&#xFF0C;&#x7531;&#x5DE6;&#x81F3;&#x53F3;&#x5206;&#x5225;&#x7528; 16 &#x9032;&#x4F4D;&#x6578;&#x5B57; (<code>0</code> ~ <code>F</code>) &#x5C0D;&#x61C9; RGB &#x4E09;&#x539F;&#x8272;&#xFF0C;&#x4F8B;&#x5982; <code>cF00</code> (&#x7D05;&#x8272;)&#xFF0C;<code>cFF0</code> (&#x9EC3;&#x8272;)&#x3002;</p>
+<div class="openblock">
+<div class="content">
+<div class="paragraph">
+<p>&#x4E5F;&#x5C31;&#x662F; <a href="https://www.w3.org/TR/css3-color/#rgb-color" target="_blank">CSS 3 &#x4E09;&#x78BC;&#x984F;&#x8272;&#x8868;&#x793A;&#x6CD5;</a>&#xFF0C;<code>#ABC</code> &#x7B49;&#x540C;&#x65BC; <code>#AABBCC</code>&#x3002;</p>
+</div>
+<div class="paragraph">
+<p>&#x7DB2;&#x8DEF;&#x4E0A;&#x6709;&#x8A31;&#x591A;&#x67E5;&#x8A62;&#x8272;&#x78BC;&#x7684;&#x7DB2;&#x7AD9;&#xFF0C;&#x96D6;&#x7136;&#x591A;&#x6578;&#x53EA;&#x63D0;&#x4F9B;&#x516D;&#x78BC;&#x8868;&#x793A;&#x6CD5;&#xFF0C;&#x4F46;&#x901A;&#x5E38;&#x53D6;&#x5176; 2&#x3001;4&#x3001;6 &#x78BC;&#x5C31;&#x6703;&#x662F;&#x4E09;&#x78BC;&#x8868;&#x793A;&#x6CD5;&#x4E2D;&#x76F8;&#x8FD1;&#x7684;&#x984F;&#x8272;&#xFF0C;&#x4F8B;&#x5982; <code>#3498DB</code> (&#x6C34;&#x85CD;&#x8272;) &#x53EF;&#x4EE5;&#x8F49;&#x63DB;&#x6210; <code>#39D</code>&#xFF0C;&#x5728; ditaa &#x88E1;&#x5C31;&#x7528; <code>c39D</code>&#x3002;</p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<p><code>c&lt;NAME&gt;</code> - &#x5176;&#x4E2D; <em>NAME</em> &#x662F;&#x4E09;&#x500B;&#x5B57;&#x6BCD;&#x7684;&#x984F;&#x8272;&#x540D;&#x7A31; (&#x7E2E;&#x5BEB;)&#xFF0C;&#x76F8;&#x5C0D;&#x5BB9;&#x6613;&#x8A18;&#x61B6;&#xFF0C;&#x6709; <code>GRE</code> (&#x7DA0;&#x8272;)&#x3001;<code>BLU</code> (&#x85CD;&#x8272;)&#x3001;<code>PNK</code> (&#x7C89;&#x7D05;&#x8272;)&#x3001;<code>RED</code> (&#x7D05;&#x8272;)&#x3001;<code>YEL</code> (&#x9EC3;&#x8272;)&#x3001;<code>BLK</code> (&#x9ED1;&#x8272;) 6 &#x7A2E;&#x984F;&#x8272;&#x53EF;&#x4EE5;&#x7528;&#x3002;</p>
+</li>
+</ul>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Note</div>
+</td>
+<td class="content">
+&#x8272;&#x78BC;&#x9664;&#x4E86;&#x958B;&#x982D;&#x7684; <code>c</code> &#x662F;&#x5C0F;&#x5BEB;&#xFF0C;&#x5F8C;&#x9762;&#x7684;&#x4E09;&#x78BC;&#x90FD;&#x8981;&#x662F;&#x5927;&#x5BEB;&#xFF0C;&#x5426;&#x5247;&#x53EA;&#x6703;&#x88AB;&#x8996;&#x70BA;&#x4E00;&#x822C;&#x7684;&#x6587;&#x5B57;&#x3002;
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>&#x4F8B;&#x5982;&#xFF1A;</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>+-------------+ +-------------+ +-------------+
+|cRED RED     | |cGRE GRE     | |cBLU BLU     |
++-------------+ +-------------+ +-------------+
+
++-------------+ +-------------+ +-------------+
+|cF00 F00     | |c0F0 0F0  {s}| |c00F 00F     |
++-------------+ +-------------+ +-------------+</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>&#x8F38;&#x51FA;&#x7D50;&#x679C;&#xFF1A;</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../images/fill.png" alt="fill.png">
+</div>
+</div>
+<div class="paragraph">
+<p>&#x4E0A;&#x4E0B;&#x5169;&#x6392;&#x7684;&#x984F;&#x8272;&#x4E0D;&#x592A;&#x4E00;&#x6A23;&#xFF0C;&#x662F;&#x56E0;&#x70BA; <code>c&lt;NAME&gt;</code> &#x80CC;&#x5F8C;&#x6240;&#x4EE3;&#x8868;&#x662F;&#x6DF7;&#x8272;&#xFF0C;<code>cRED</code> &#x4E26;&#x975E;&#x7D55;&#x5C0D;&#x7684;&#x7D05; (<code>#F00</code>)&#xFF0C;<code>cGRE</code> &#x4E26;&#x975E;&#x7D55;&#x5C0D;&#x7684;&#x7DA0; (<code>#0F0</code>)&#x3002;</p>
+</div>
+<div class="paragraph">
+<p>&#x773C;&#x5C16;&#x7684;&#x4F60;&#x6216;&#x8A31;&#x4E5F;&#x767C;&#x73FE;&#x53F3;&#x4E0A;&#x89D2; BLU &#x7684;&#x6587;&#x5B57;&#x984F;&#x8272;&#x8DDF;&#x5225;&#x4EBA;&#x4E0D;&#x592A;&#x4E00;&#x6A23;&#xFF0C;&#x90A3;&#x662F;&#x56E0;&#x70BA;&#x96D6;&#x7136;&#x4E0D;&#x80FD;&#x6307;&#x5B9A;&#x6587;&#x5B57;&#x7684;&#x984F;&#x8272;&#xFF0C;&#x4F46; ditaa &#x6703;&#x81EA;&#x52D5;&#x6839;&#x64DA;&#x80CC;&#x666F;&#x8272;&#x8ABF;&#x6574;&#x6587;&#x5B57;&#x7684;&#x984F;&#x8272; (&#x9ED1;/&#x767D;)&#xFF0C;&#x907F;&#x514D;&#x56E0;&#x70BA;&#x80CC;&#x666F;&#x8272;&#x76F8;&#x5C0D;&#x4EAE;&#xFF0F;&#x6697;&#xFF0C;&#x800C;&#x5C0E;&#x81F4;&#x4E0A;&#x9762;&#x7684;&#x6587;&#x5B57;&#x4E0D;&#x5BB9;&#x6613;&#x95B1;&#x8B80;&#x3002;</p>
+</div>
+<div class="paragraph">
+<p>&#x8DDF; tag &#x7684;&#x7528;&#x6CD5;&#x4E00;&#x6A23;&#xFF0C;&#x8272;&#x78BC;&#x53EA;&#x8981;&#x5728;&#x77E9;&#x5F62;&#x88E1;&#x5373;&#x53EF;&#xFF0C;&#x64FA;&#x653E;&#x7684;&#x4F4D;&#x7F6E;&#x6C92;&#x6709;&#x9650;&#x5B9A; (&#x7FD2;&#x6163;&#x4E0A;&#x6703;&#x653E;&#x89D2;&#x843D;)&#x3002;</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Note</div>
+</td>
+<td class="content">
+&#x586B;&#x8272;&#x53EA;&#x80FD;&#x7528;&#x5728;&#x5C01;&#x9589;&#x7684; (closed) &#x5F62;&#x72C0;&#xFF0C;&#x6240;&#x4EE5;&#x63A1;&#x7528;&#x865B;&#x7DDA;&#x6642;&#xFF0C;&#x8272;&#x78BC;&#x4E0D;&#x6703;&#x6709;&#x4F5C;&#x7528;&#x3002;
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="___5">&#x5C64;&#x758A;</h2>
+<div class="sectionbody">
+<div class="listingblock">
+<div class="content">
+<pre>+--------------------------------------+
+|                                      |
+|  +--------------+  +--------------+  |
+|  |              |  |              |  |
+|  |  +--------+  |  |  +--------+  |  |
+|  |  :        |  |  |  |        |  |  |
+|  |  |        |  |  |  |    {io}|  |  |
+|  |  +--------+  |  |  +--------+  |  |
+|  |cYEL          |  |cPNK       {d}|  |
+|  +--------------+  +--------------+  |
+|cEFF                                  |
++--------------------------------------+</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>&#x8F38;&#x51FA;&#x7D50;&#x679C;&#xFF1A;</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../images/nested.png" alt="nested.png">
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="___6">&#x4EA4;&#x932F;</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>&#x5716;&#x5F62;&#x4EA4;&#x932F;&#x6642;&#xFF0C;&#x6703;&#x5207;&#x5272;&#x51FA;&#x4E0D;&#x540C;&#x7684;&#x5F62;&#x72C0;&#xFF0C;&#x8272;&#x78BC;&#x53EF;&#x4EE5;&#x4F5C;&#x7528;&#x5728;&#x5916;&#x570D;&#x7684;&#x5F62;&#x72C0;&#xFF0C;&#x4F46; tag &#x53EA;&#x80FD;&#x5728;&#x4EA4;&#x932F;&#x51FA;&#x4F86;&#x7684;&#x77E9;&#x5F62;&#x88E1;&#x3002;</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>+----------+
+|cRED      |
+| +--------+-+
+| |        | |
+| |        | |
+| |    cYEL| |
++-+--------+ |
+  |      cGRE|
+  +----------+</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>&#x8F38;&#x51FA;&#x7D50;&#x679C;&#xFF1A;</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../images/crossing.png" alt="crossing.png">
+</div>
+</div>
+<div class="paragraph">
+<p>&#x53E6;&#x5916;&#x5E36;&#x51FA; <code>--no-separation</code></p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../images/crossing-nosep.png" alt="crossing nosep.png">
+</div>
+</div>
+</div>
+</div>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="lines.html" class="navigation navigation-prev " aria-label="Previous page: 線條與箭頭">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../howtos/README.adoc" class="navigation navigation-next " aria-label="Next page: HOWTOs">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"形狀與填色","level":"1.3.3","depth":2,"next":{"title":"HOWTOs","level":"1.4","depth":1,"path":"howtos/README.adoc","ref":"howtos/README.adoc","articles":[{"title":"自行編譯 ditaa","level":"1.4.1","depth":2,"path":"howtos/build-ditaa.adoc","ref":"howtos/build-ditaa.adoc","articles":[]},{"title":"直接在 iTerm2 裡預覽圖形","level":"1.4.2","depth":2,"path":"howtos/preview-diagram-in-iterm2.adoc","ref":"howtos/preview-diagram-in-iterm2.adoc","articles":[]}]},"previous":{"title":"線條與箭頭","level":"1.3.2","depth":2,"path":"drawing/lines.adoc","ref":"drawing/lines.adoc","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"drawing/shapes.adoc","mtime":"2016-11-10T00:16:18.000Z","type":"asciidoc"},"gitbook":{"version":"3.2.2","time":"2016-11-08T00:14:11.398Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

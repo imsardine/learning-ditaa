@@ -1,0 +1,12 @@
+= 新手上路
+
+ditaa 的全名是 DIagrams Through Ascii Art，顧名思義就是將符合某些規則的文字圖 (ASCII Art) 轉換成圖檔，就像用圖表編輯軟體做出來的一樣，而且這些規則並不複雜。
+
+TIP: 跟 ditaa 同類型的工具還有 https://pythonhosted.org/aafigure/[aafigure]，之後再跟大家分享。
+
+ditaa 的作者 http://www.stathis.co.uk/[Stathis Sideris] 除了開發軟體，對視覺藝術也有興趣 (http://www.stathis.co.uk/art/illustration.html[作品集])。ditaa 是他在 https://sourceforge.net/p/ditaa/svn/1/[2007 年中] 開始用 Java 開發的小工具，早期專案是代管在 https://sourceforge.net/projects/ditaa/[SourceForge]，不過後來悄悄地搬到 https://github.com/stathissideris/ditaa[GitHub]，雖然後期的開發趨緩，但現有的功能其實已經夠用。
+
+CAUTION: 多數時候，搜尋引擎會把你帶往 http://ditaa.sourceforge.net/[ditaa.sourceforge.net]，但這個網站已經很久沒有更新，建議把 https://github.com/stathissideris/ditaa[stathissideris/ditaa] (GitHub) 當做是 ditaa 的入口。
+
+開始學習 ditaa 的旅程 ~
+

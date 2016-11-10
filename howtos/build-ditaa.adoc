@@ -1,0 +1,12 @@
+= 自行編譯 ditaa
+
+早期 ditaa 代管在 https://sourceforge.net/projects/ditaa/[SourceForge]，2013-05-10 之後就沒再更新過，最後可供下載的版本是 https://sourceforge.net/projects/ditaa/files/ditaa/0.9/[0.9]。不過在那之前，ditaa 的開發工作似乎就已俏俏移住 GitHub https://github.com/stathissideris/ditaa[stathissideris/ditaa]。
+
+GitHub 上目前最新的釋出版是 2015-07-14 的 0.10，不過網路上已經找不到可以直接下載 `.jar` 的地方，多數的套件管理程式也只提供 0.9 的版本。
+
+https://github.com/Homebrew/homebrew-core/blob/master/Formula/ditaa.rb
+
+----
+$ ant -buildfile build/release.xml release-jar
+----
+

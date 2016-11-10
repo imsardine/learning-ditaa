@@ -1,0 +1,18 @@
+= 安裝設定
+
+在 OS X 上，最簡單的方式是透過 http://brew.sh/[Homebrew] 安裝 `ditaa` 套件：
+
+----
+brew update && brew install ditaa
+---- 
+
+之後就有 link:../ditaa-cli.adoc[`ditaa` 指令]可以用。
+
+如果是其他的平台，由於網路上下載不到最新版的 JAR 檔，只能link:../build-ditaa.adoc[自行編譯]。
+
+拿到 `ditaa<VERSION>.jar` 後，為它建立一個 alias 就可以像上面透過 Homebrew 安裝一樣，有 `ditaa` 指令可以使用。
+
+----
+alias ditaa="java -jar /path/to/ditaa<VERSION>.jar"
+----
+
